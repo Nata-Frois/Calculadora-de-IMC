@@ -13,7 +13,7 @@
 <body>
     <main id="container">
         <section id="img">
-             <img src="assets/css/js/imagens/Ilustração.svg">
+             <img src="assets/js/imagens/Ilustração.svg">
         </section>
 
         <section id="calculator">
@@ -41,7 +41,7 @@
                     </label>
                     <div class="input-field">
                         <i class="fa-solid fa-ruler"></i>
-                        <input type="number" id="height" required>
+                        <input type="number" step="0.01" id="height" required>
                         <span>
                             m
                         </span>
@@ -56,11 +56,11 @@
             <div id="infos" class="hidden"> 
                 <div id="result">
                     <div id="bmi">  
-                        <span id="value">10</span>
+                        <span id="value"></span>
                         <span>Seu IMC</span>
                     </div>
                     <div id="description">
-                        <span>20</span>
+                        <span></span>
                     </div>
                 </div>
 
@@ -74,5 +74,6 @@
         </section>  
     </main>
     
+    <script src="assets/js/imagens/script.js"></script>
 </body>
 </html>
